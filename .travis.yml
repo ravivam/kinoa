@@ -1,0 +1,7 @@
+sudo: false
+language: node_js
+services:
+  - mongodb
+node_js:
+  - '5.0'
+  - '4.0'

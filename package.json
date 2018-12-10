@@ -1,0 +1,47 @@
+{
+  "name": "Kinoa",
+  "description": "Kinoa is a CRM built on angularJS and Deployd",
+  "author": "Nicolas Ritouet <nicolas@ritouet.com>",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NicolasRitouet/kinoa.git"
+  },
+  "dependencies": {
+    "deployd": "~0.8.0",
+    "dpd-fileupload": "0.0.17"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "angular": "^1.7.5",
+    "angular-mocks": "^1.7.5",
+    "angular-ui-router": "^1.0.20",
+    "chai": "^4.2.0",
+    "gulp": "^3.6.2",
+    "gulp-concat": "^2.2.0",
+    "gulp-jshint": "^1.6.1",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-open": "^2.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-shell": "^0.5.0",
+    "gulp-spawn": "^0.3.0",
+    "gulp-uglify": "^1.4.2",
+    "jasmine-core": "^3.3.0",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-jasmine": "^0.3.8",
+    "karma-spec-reporter": "0.0.32",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.1"
+  },
+  "scripts": {
+    "start_dpd": "node node_modules/deployd/bin/dpd"
+  },
+  "engines": {
+    "node": ">= 4",
+    "npm": "1.2.x"
+  }
+}
