@@ -4,7 +4,7 @@ export let config : Config = {
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
     //specs: ["../features/*.feature"],
-    specs: ["D:\\DevopsPOC\\kinoa\\test\\features\\Home.feature"],
+    specs: ["../test/features/*.feature"],
 
     framework: 'custom',
     frameworkPath: require.resolve('protractor-cucumber-framework'),
@@ -16,7 +16,7 @@ export let config : Config = {
         strict: true,
         //format: ['pretty'],
         //require: ['../steps/*.js', '../hooks/*.js'],
-        require: ['D:\\DevopsPOC\\kinoa\\test\\steps\\HomeSteps.js', '../hooks/*.js'],
+        require: ['../test/steps/*.js', '../hooks/*.js'],
         tags: '@smoke'
 
     }

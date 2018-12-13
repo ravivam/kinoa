@@ -24,7 +24,7 @@ module.exports = function(config) {
        //Added by Ravi
       'public/app/shared/**/*.js',
       'public/app/**/*.js',
-      'test/**/*Spec.js'
+      'unittest/**/*Spec.js'
     ],
     urlRoot: '/__karma/',
     proxies: {
