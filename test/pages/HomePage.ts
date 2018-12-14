@@ -6,7 +6,7 @@ const Locators = {
     contacts: {
 
         type: IdentificationType[IdentificationType.Xpath],
-        value: "//*[@id=sidebarTab]/li[2]/a"
+        value: "//*[@id=sidebarTab]/li[3]/a"
     }
 }
 
